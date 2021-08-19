@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDDCE53E26CDD03F003F25FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE53D26CDD03F003F25FB /* AppDelegate.swift */; };
+		FDDCE54026CDD03F003F25FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE53F26CDD03F003F25FB /* SceneDelegate.swift */; };
+		FDDCE54226CDD03F003F25FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE54126CDD03F003F25FB /* ViewController.swift */; };
+		FDDCE54526CDD03F003F25FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDCE54326CDD03F003F25FB /* Main.storyboard */; };
+		FDDCE54826CDD03F003F25FB /* Desafio_Framework_Digital.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE54626CDD03F003F25FB /* Desafio_Framework_Digital.xcdatamodeld */; };
+		FDDCE54A26CDD045003F25FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDCE54926CDD045003F25FB /* Assets.xcassets */; };
+		FDDCE54D26CDD045003F25FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDCE54B26CDD045003F25FB /* LaunchScreen.storyboard */; };
+		FDDCE55826CDD045003F25FB /* Desafio_Framework_DigitalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE55726CDD045003F25FB /* Desafio_Framework_DigitalTests.swift */; };
+		FDDCE56326CDD045003F25FB /* Desafio_Framework_DigitalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE56226CDD045003F25FB /* Desafio_Framework_DigitalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDDCE55426CDD045003F25FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDDCE53226CDD03F003F25FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDDCE53926CDD03F003F25FB;
+			remoteInfo = "Desafio Framework Digital";
+		};
+		FDDCE55F26CDD045003F25FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDDCE53226CDD03F003F25FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDDCE53926CDD03F003F25FB;
+			remoteInfo = "Desafio Framework Digital";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDDCE53A26CDD03F003F25FB /* Desafio Framework Digital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desafio Framework Digital.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDCE53D26CDD03F003F25FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDDCE53F26CDD03F003F25FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FDDCE54126CDD03F003F25FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDDCE54426CDD03F003F25FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDDCE54726CDD03F003F25FB /* Desafio_Framework_Digital.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Desafio_Framework_Digital.xcdatamodel; sourceTree = "<group>"; };
+		FDDCE54926CDD045003F25FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDDCE54C26CDD045003F25FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDDCE54E26CDD045003F25FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDDCE55326CDD045003F25FB /* Desafio Framework DigitalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desafio Framework DigitalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDCE55726CDD045003F25FB /* Desafio_Framework_DigitalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desafio_Framework_DigitalTests.swift; sourceTree = "<group>"; };
+		FDDCE55926CDD045003F25FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDDCE55E26CDD045003F25FB /* Desafio Framework DigitalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desafio Framework DigitalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDCE56226CDD045003F25FB /* Desafio_Framework_DigitalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desafio_Framework_DigitalUITests.swift; sourceTree = "<group>"; };
+		FDDCE56426CDD045003F25FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDDCE53726CDD03F003F25FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDCE55026CDD045003F25FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDCE55B26CDD045003F25FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDDCE53126CDD03F003F25FB = {
+			isa = PBXGroup;
+			children = (
+				FDDCE53C26CDD03F003F25FB /* Desafio Framework Digital */,
+				FDDCE55626CDD045003F25FB /* Desafio Framework DigitalTests */,
+				FDDCE56126CDD045003F25FB /* Desafio Framework DigitalUITests */,
+				FDDCE53B26CDD03F003F25FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDDCE53B26CDD03F003F25FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDDCE53A26CDD03F003F25FB /* Desafio Framework Digital.app */,
+				FDDCE55326CDD045003F25FB /* Desafio Framework DigitalTests.xctest */,
+				FDDCE55E26CDD045003F25FB /* Desafio Framework DigitalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDDCE53C26CDD03F003F25FB /* Desafio Framework Digital */ = {
+			isa = PBXGroup;
+			children = (
+				FDDCE53D26CDD03F003F25FB /* AppDelegate.swift */,
+				FDDCE53F26CDD03F003F25FB /* SceneDelegate.swift */,
+				FDDCE54126CDD03F003F25FB /* ViewController.swift */,
+				FDDCE54326CDD03F003F25FB /* Main.storyboard */,
+				FDDCE54926CDD045003F25FB /* Assets.xcassets */,
+				FDDCE54B26CDD045003F25FB /* LaunchScreen.storyboard */,
+				FDDCE54E26CDD045003F25FB /* Info.plist */,
+				FDDCE54626CDD03F003F25FB /* Desafio_Framework_Digital.xcdatamodeld */,
+			);
+			path = "Desafio Framework Digital";
+			sourceTree = "<group>";
+		};
+		FDDCE55626CDD045003F25FB /* Desafio Framework DigitalTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDDCE55726CDD045003F25FB /* Desafio_Framework_DigitalTests.swift */,
+				FDDCE55926CDD045003F25FB /* Info.plist */,
+			);
+			path = "Desafio Framework DigitalTests";
+			sourceTree = "<group>";
+		};
+		FDDCE56126CDD045003F25FB /* Desafio Framework DigitalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDDCE56226CDD045003F25FB /* Desafio_Framework_DigitalUITests.swift */,
+				FDDCE56426CDD045003F25FB /* Info.plist */,
+			);
+			path = "Desafio Framework DigitalUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDDCE53926CDD03F003F25FB /* Desafio Framework Digital */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDCE56726CDD045003F25FB /* Build configuration list for PBXNativeTarget "Desafio Framework Digital" */;
+			buildPhases = (
+				FDDCE53626CDD03F003F25FB /* Sources */,
+				FDDCE53726CDD03F003F25FB /* Frameworks */,
+				FDDCE53826CDD03F003F25FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Desafio Framework Digital";
+			productName = "Desafio Framework Digital";
+			productReference = FDDCE53A26CDD03F003F25FB /* Desafio Framework Digital.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDDCE55226CDD045003F25FB /* Desafio Framework DigitalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDCE56A26CDD045003F25FB /* Build configuration list for PBXNativeTarget "Desafio Framework DigitalTests" */;
+			buildPhases = (
+				FDDCE54F26CDD045003F25FB /* Sources */,
+				FDDCE55026CDD045003F25FB /* Frameworks */,
+				FDDCE55126CDD045003F25FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDDCE55526CDD045003F25FB /* PBXTargetDependency */,
+			);
+			name = "Desafio Framework DigitalTests";
+			productName = "Desafio Framework DigitalTests";
+			productReference = FDDCE55326CDD045003F25FB /* Desafio Framework DigitalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDDCE55D26CDD045003F25FB /* Desafio Framework DigitalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDCE56D26CDD045003F25FB /* Build configuration list for PBXNativeTarget "Desafio Framework DigitalUITests" */;
+			buildPhases = (
+				FDDCE55A26CDD045003F25FB /* Sources */,
+				FDDCE55B26CDD045003F25FB /* Frameworks */,
+				FDDCE55C26CDD045003F25FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDDCE56026CDD045003F25FB /* PBXTargetDependency */,
+			);
+			name = "Desafio Framework DigitalUITests";
+			productName = "Desafio Framework DigitalUITests";
+			productReference = FDDCE55E26CDD045003F25FB /* Desafio Framework DigitalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDDCE53226CDD03F003F25FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FDDCE53926CDD03F003F25FB = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					FDDCE55226CDD045003F25FB = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FDDCE53926CDD03F003F25FB;
+					};
+					FDDCE55D26CDD045003F25FB = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FDDCE53926CDD03F003F25FB;
+					};
+				};
+			};
+			buildConfigurationList = FDDCE53526CDD03F003F25FB /* Build configuration list for PBXProject "Desafio Framework Digital" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDDCE53126CDD03F003F25FB;
+			productRefGroup = FDDCE53B26CDD03F003F25FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDDCE53926CDD03F003F25FB /* Desafio Framework Digital */,
+				FDDCE55226CDD045003F25FB /* Desafio Framework DigitalTests */,
+				FDDCE55D26CDD045003F25FB /* Desafio Framework DigitalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDDCE53826CDD03F003F25FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDCE54D26CDD045003F25FB /* LaunchScreen.storyboard in Resources */,
+				FDDCE54A26CDD045003F25FB /* Assets.xcassets in Resources */,
+				FDDCE54526CDD03F003F25FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDCE55126CDD045003F25FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDCE55C26CDD045003F25FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDDCE53626CDD03F003F25FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDCE54226CDD03F003F25FB /* ViewController.swift in Sources */,
+				FDDCE53E26CDD03F003F25FB /* AppDelegate.swift in Sources */,
+				FDDCE54026CDD03F003F25FB /* SceneDelegate.swift in Sources */,
+				FDDCE54826CDD03F003F25FB /* Desafio_Framework_Digital.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDCE54F26CDD045003F25FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDCE55826CDD045003F25FB /* Desafio_Framework_DigitalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDCE55A26CDD045003F25FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDCE56326CDD045003F25FB /* Desafio_Framework_DigitalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDDCE55526CDD045003F25FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDDCE53926CDD03F003F25FB /* Desafio Framework Digital */;
+			targetProxy = FDDCE55426CDD045003F25FB /* PBXContainerItemProxy */;
+		};
+		FDDCE56026CDD045003F25FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDDCE53926CDD03F003F25FB /* Desafio Framework Digital */;
+			targetProxy = FDDCE55F26CDD045003F25FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDDCE54326CDD03F003F25FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDDCE54426CDD03F003F25FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDDCE54B26CDD045003F25FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDDCE54C26CDD045003F25FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDDCE56526CDD045003F25FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDDCE56626CDD045003F25FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDDCE56826CDD045003F25FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DQM8J3NWG;
+				INFOPLIST_FILE = "Desafio Framework Digital/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.edu.infnet.al-rodrigo.filomeno.Desafio-Framework-Digital";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FDDCE56926CDD045003F25FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DQM8J3NWG;
+				INFOPLIST_FILE = "Desafio Framework Digital/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.edu.infnet.al-rodrigo.filomeno.Desafio-Framework-Digital";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FDDCE56B26CDD045003F25FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DQM8J3NWG;
+				INFOPLIST_FILE = "Desafio Framework DigitalTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.edu.infnet.al-rodrigo.filomeno.Desafio-Framework-DigitalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Desafio Framework Digital.app/Desafio Framework Digital";
+			};
+			name = Debug;
+		};
+		FDDCE56C26CDD045003F25FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DQM8J3NWG;
+				INFOPLIST_FILE = "Desafio Framework DigitalTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.edu.infnet.al-rodrigo.filomeno.Desafio-Framework-DigitalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Desafio Framework Digital.app/Desafio Framework Digital";
+			};
+			name = Release;
+		};
+		FDDCE56E26CDD045003F25FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DQM8J3NWG;
+				INFOPLIST_FILE = "Desafio Framework DigitalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.edu.infnet.al-rodrigo.filomeno.Desafio-Framework-DigitalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Desafio Framework Digital";
+			};
+			name = Debug;
+		};
+		FDDCE56F26CDD045003F25FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DQM8J3NWG;
+				INFOPLIST_FILE = "Desafio Framework DigitalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.edu.infnet.al-rodrigo.filomeno.Desafio-Framework-DigitalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Desafio Framework Digital";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDDCE53526CDD03F003F25FB /* Build configuration list for PBXProject "Desafio Framework Digital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDCE56526CDD045003F25FB /* Debug */,
+				FDDCE56626CDD045003F25FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDCE56726CDD045003F25FB /* Build configuration list for PBXNativeTarget "Desafio Framework Digital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDCE56826CDD045003F25FB /* Debug */,
+				FDDCE56926CDD045003F25FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDCE56A26CDD045003F25FB /* Build configuration list for PBXNativeTarget "Desafio Framework DigitalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDCE56B26CDD045003F25FB /* Debug */,
+				FDDCE56C26CDD045003F25FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDCE56D26CDD045003F25FB /* Build configuration list for PBXNativeTarget "Desafio Framework DigitalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDCE56E26CDD045003F25FB /* Debug */,
+				FDDCE56F26CDD045003F25FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FDDCE54626CDD03F003F25FB /* Desafio_Framework_Digital.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FDDCE54726CDD03F003F25FB /* Desafio_Framework_Digital.xcdatamodel */,
+			);
+			currentVersion = FDDCE54726CDD03F003F25FB /* Desafio_Framework_Digital.xcdatamodel */;
+			path = Desafio_Framework_Digital.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FDDCE53226CDD03F003F25FB /* Project object */;
+}
