@@ -19,6 +19,9 @@
 		FDDCE54D26CDD045003F25FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDCE54B26CDD045003F25FB /* LaunchScreen.storyboard */; };
 		FDDCE55826CDD045003F25FB /* Desafio_Framework_DigitalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE55726CDD045003F25FB /* Desafio_Framework_DigitalTests.swift */; };
 		FDDCE56326CDD045003F25FB /* Desafio_Framework_DigitalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE56226CDD045003F25FB /* Desafio_Framework_DigitalUITests.swift */; };
+		FDDCE57926CECFAF003F25FB /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE57826CECFAF003F25FB /* FavoritesViewController.swift */; };
+		FDDCE57B26CEDB66003F25FB /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE57A26CEDB66003F25FB /* CartViewController.swift */; };
+		FDDCE57D26CEDC2A003F25FB /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE57C26CEDC2A003F25FB /* UserProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 		FDDCE55E26CDD045003F25FB /* Desafio Framework DigitalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desafio Framework DigitalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDCE56226CDD045003F25FB /* Desafio_Framework_DigitalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desafio_Framework_DigitalUITests.swift; sourceTree = "<group>"; };
 		FDDCE56426CDD045003F25FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDDCE57826CECFAF003F25FB /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		FDDCE57A26CEDB66003F25FB /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		FDDCE57C26CEDC2A003F25FB /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +109,6 @@
 				2A645213807C581A4A0CF89A /* Pods-Desafio Framework DigitalTests.debug.xcconfig */,
 				67B321C26876583CF687709B /* Pods-Desafio Framework DigitalTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,10 +147,11 @@
 		FDDCE53C26CDD03F003F25FB /* Desafio Framework Digital */ = {
 			isa = PBXGroup;
 			children = (
-				FDDCE53D26CDD03F003F25FB /* AppDelegate.swift */,
+				FDDCE57326CEBF5F003F25FB /* Configurations */,
+				FDDCE57226CEBF45003F25FB /* Controllers */,
+				FDDCE57126CEBF3B003F25FB /* Views */,
+				FDDCE57026CEBF33003F25FB /* Models */,
 				FDDCE53F26CDD03F003F25FB /* SceneDelegate.swift */,
-				FDDCE54126CDD03F003F25FB /* ViewController.swift */,
-				FDDCE54326CDD03F003F25FB /* Main.storyboard */,
 				FDDCE54926CDD045003F25FB /* Assets.xcassets */,
 				FDDCE54B26CDD045003F25FB /* LaunchScreen.storyboard */,
 				FDDCE54E26CDD045003F25FB /* Info.plist */,
@@ -170,6 +176,40 @@
 				FDDCE56426CDD045003F25FB /* Info.plist */,
 			);
 			path = "Desafio Framework DigitalUITests";
+			sourceTree = "<group>";
+		};
+		FDDCE57026CEBF33003F25FB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FDDCE57126CEBF3B003F25FB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDDCE54326CDD03F003F25FB /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FDDCE57226CEBF45003F25FB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FDDCE54126CDD03F003F25FB /* ViewController.swift */,
+				FDDCE57826CECFAF003F25FB /* FavoritesViewController.swift */,
+				FDDCE57A26CEDB66003F25FB /* CartViewController.swift */,
+				FDDCE57C26CEDC2A003F25FB /* UserProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FDDCE57326CEBF5F003F25FB /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				FDDCE53D26CDD03F003F25FB /* AppDelegate.swift */,
+			);
+			path = Configurations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,7 +416,10 @@
 			files = (
 				FDDCE54226CDD03F003F25FB /* ViewController.swift in Sources */,
 				FDDCE53E26CDD03F003F25FB /* AppDelegate.swift in Sources */,
+				FDDCE57D26CEDC2A003F25FB /* UserProfileViewController.swift in Sources */,
 				FDDCE54026CDD03F003F25FB /* SceneDelegate.swift in Sources */,
+				FDDCE57926CECFAF003F25FB /* FavoritesViewController.swift in Sources */,
+				FDDCE57B26CEDB66003F25FB /* CartViewController.swift in Sources */,
 				FDDCE54826CDD03F003F25FB /* Desafio_Framework_Digital.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
