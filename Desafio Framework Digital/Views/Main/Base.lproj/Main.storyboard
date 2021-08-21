@@ -99,6 +99,11 @@
                                                 <constraint firstItem="Dan-tM-xtK" firstAttribute="leading" secondItem="4qH-S3-98a" secondAttribute="leadingMargin" id="zcA-6N-wcS"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="productImageView" destination="Dan-tM-xtK" id="GFF-Oh-MHc"/>
+                                            <outlet property="productNameLabel" destination="aaT-a7-u1i" id="Wxd-Yl-JbP"/>
+                                            <outlet property="productPriceLabel" destination="V6Q-ch-UTc" id="Nhh-dh-nDk"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -120,6 +125,11 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="destaques" image="star" catalog="system" selectedImage="star" id="Lu8-hX-Z8L"/>
+                    <connections>
+                        <outlet property="highlightsTableView" destination="LZm-Ek-sM3" id="xwk-1M-KEH"/>
+                        <outlet property="noFoundLabel" destination="rCI-dL-18h" id="FMd-D6-JdU"/>
+                        <outlet property="notFoundImageView" destination="5Iw-HY-jLk" id="Zbo-ap-QqQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -245,6 +255,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="TQV-wX-M5l" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="Sn1-2J-fkR">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" red="0.3803921569" green="0.1843137255" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

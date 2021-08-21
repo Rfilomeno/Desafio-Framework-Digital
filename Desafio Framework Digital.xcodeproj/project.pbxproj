@@ -10,6 +10,8 @@
 		548A40BB9429406C21FF3C79 /* Pods_Desafio_Framework_DigitalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9A9E55EE28F158E8A84D1D /* Pods_Desafio_Framework_DigitalTests.framework */; };
 		7FD99F4E0FEDE3E992715D4D /* Pods_Desafio_Framework_Digital.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5803C2EFB3177D42EC500C9F /* Pods_Desafio_Framework_Digital.framework */; };
 		B0EB8C89E3C03CAE72ED9AB3 /* Pods_Desafio_Framework_Digital_Desafio_Framework_DigitalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 295B186D71EFCAAC505A94E4 /* Pods_Desafio_Framework_Digital_Desafio_Framework_DigitalUITests.framework */; };
+		FD9BAA8E26D13CE8008B21E3 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9BAA8D26D13CE8008B21E3 /* ProductModel.swift */; };
+		FD9BAAB226D145D8008B21E3 /* HighlightsDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9BAAB126D145D8008B21E3 /* HighlightsDAO.swift */; };
 		FDDCE53E26CDD03F003F25FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE53D26CDD03F003F25FB /* AppDelegate.swift */; };
 		FDDCE54026CDD03F003F25FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE53F26CDD03F003F25FB /* SceneDelegate.swift */; };
 		FDDCE54226CDD03F003F25FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE54126CDD03F003F25FB /* ViewController.swift */; };
@@ -54,6 +56,8 @@
 		8BB0AC2550F93D41E3E15416 /* Pods-Desafio Framework Digital.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio Framework Digital.release.xcconfig"; path = "Target Support Files/Pods-Desafio Framework Digital/Pods-Desafio Framework Digital.release.xcconfig"; sourceTree = "<group>"; };
 		BB256F496075ED360443E8FB /* Pods-Desafio Framework Digital.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio Framework Digital.debug.xcconfig"; path = "Target Support Files/Pods-Desafio Framework Digital/Pods-Desafio Framework Digital.debug.xcconfig"; sourceTree = "<group>"; };
 		CE9A9E55EE28F158E8A84D1D /* Pods_Desafio_Framework_DigitalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Desafio_Framework_DigitalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD9BAA8D26D13CE8008B21E3 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		FD9BAAB126D145D8008B21E3 /* HighlightsDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightsDAO.swift; sourceTree = "<group>"; };
 		FDDCE53A26CDD03F003F25FB /* Desafio Framework Digital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desafio Framework Digital.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDCE53D26CDD03F003F25FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDDCE53F26CDD03F003F25FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +132,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FD9BAA8C26D13CC3008B21E3 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				FD9BAA8D26D13CE8008B21E3 /* ProductModel.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		FD9BAAB026D145B3008B21E3 /* DAOs */ = {
+			isa = PBXGroup;
+			children = (
+				FD9BAAB126D145D8008B21E3 /* HighlightsDAO.swift */,
+			);
+			path = DAOs;
+			sourceTree = "<group>";
+		};
 		FDDCE53126CDD03F003F25FB = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +207,8 @@
 		FDDCE57026CEBF33003F25FB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FD9BAAB026D145B3008B21E3 /* DAOs */,
+				FD9BAA8C26D13CC3008B21E3 /* General */,
 				FDDCE58F26D03837003F25FB /* Favorites */,
 				FDDCE58E26D0382E003F25FB /* Highlights */,
 				FDDCE58D26D03828003F25FB /* Cart */,
@@ -212,7 +234,7 @@
 			children = (
 				FDDCE58626D03765003F25FB /* UserProfile */,
 				FDDCE58526D0375C003F25FB /* Cart */,
-				FDDCE58426D03748003F25FB /* Main */,
+				FDDCE58426D03748003F25FB /* Highlights */,
 				FDDCE58326D03724003F25FB /* Favorites */,
 			);
 			path = Controllers;
@@ -244,12 +266,12 @@
 			path = Favorites;
 			sourceTree = "<group>";
 		};
-		FDDCE58426D03748003F25FB /* Main */ = {
+		FDDCE58426D03748003F25FB /* Highlights */ = {
 			isa = PBXGroup;
 			children = (
 				FDDCE54126CDD03F003F25FB /* ViewController.swift */,
 			);
-			path = Main;
+			path = Highlights;
 			sourceTree = "<group>";
 		};
 		FDDCE58526D0375C003F25FB /* Cart */ = {
@@ -577,8 +599,10 @@
 				FDDCE53E26CDD03F003F25FB /* AppDelegate.swift in Sources */,
 				FDDCE59126D07200003F25FB /* HighlightTableViewCell.swift in Sources */,
 				FDDCE57D26CEDC2A003F25FB /* UserProfileViewController.swift in Sources */,
+				FD9BAA8E26D13CE8008B21E3 /* ProductModel.swift in Sources */,
 				FDDCE54026CDD03F003F25FB /* SceneDelegate.swift in Sources */,
 				FDDCE57926CECFAF003F25FB /* FavoritesViewController.swift in Sources */,
+				FD9BAAB226D145D8008B21E3 /* HighlightsDAO.swift in Sources */,
 				FDDCE57B26CEDB66003F25FB /* CartViewController.swift in Sources */,
 				FDDCE54826CDD03F003F25FB /* Desafio_Framework_Digital.xcdatamodeld in Sources */,
 			);
