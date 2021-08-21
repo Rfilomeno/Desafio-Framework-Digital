@@ -6,6 +6,7 @@ target 'Desafio Framework Digital' do
   use_frameworks!
 
   # Pods for Desafio Framework Digital
+  pod 'Alamofire', '~> 5.4'
 
   target 'Desafio Framework DigitalTests' do
     inherit! :search_paths

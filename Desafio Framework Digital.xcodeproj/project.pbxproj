@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -22,6 +22,9 @@
 		FDDCE57926CECFAF003F25FB /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE57826CECFAF003F25FB /* FavoritesViewController.swift */; };
 		FDDCE57B26CEDB66003F25FB /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE57A26CEDB66003F25FB /* CartViewController.swift */; };
 		FDDCE57D26CEDC2A003F25FB /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE57C26CEDC2A003F25FB /* UserProfileViewController.swift */; };
+		FDDCE58226D0345E003F25FB /* emoticon-sad-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = FDDCE58126D0345E003F25FB /* emoticon-sad-outline.png */; };
+		FDDCE59126D07200003F25FB /* HighlightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE59026D07200003F25FB /* HighlightTableViewCell.swift */; };
+		FDDCE59326D07661003F25FB /* apple-finder.png in Resources */ = {isa = PBXBuildFile; fileRef = FDDCE59226D07661003F25FB /* apple-finder.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,14 +46,14 @@
 
 /* Begin PBXFileReference section */
 		295B186D71EFCAAC505A94E4 /* Pods_Desafio_Framework_Digital_Desafio_Framework_DigitalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Desafio_Framework_Digital_Desafio_Framework_DigitalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A645213807C581A4A0CF89A /* Pods-Desafio Framework DigitalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio Framework DigitalTests.debug.xcconfig"; path = "Target Support Files/Pods-Desafio Framework DigitalTests/Pods-Desafio Framework DigitalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C8CFC1FC35658CA66581299 /* Pods-Desafio Framework Digital-Desafio Framework DigitalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio Framework Digital-Desafio Framework DigitalUITests.debug.xcconfig"; path = "Target Support Files/Pods-Desafio Framework Digital-Desafio Framework DigitalUITests/Pods-Desafio Framework Digital-Desafio Framework DigitalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C2CC430F8A38E360D36927B /* Pods-Desafio Framework DigitalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio Framework DigitalTests.debug.xcconfig"; path = "Target Support Files/Pods-Desafio Framework DigitalTests/Pods-Desafio Framework DigitalTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5803C2EFB3177D42EC500C9F /* Pods_Desafio_Framework_Digital.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Desafio_Framework_Digital.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		67B321C26876583CF687709B /* Pods-Desafio Framework DigitalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio Framework DigitalTests.release.xcconfig"; path = "Target Support Files/Pods-Desafio Framework DigitalTests/Pods-Desafio Framework DigitalTests.release.xcconfig"; sourceTree = "<group>"; };
-		70E071CE776D2839C5FB6C32 /* Pods-Desafio Framework Digital-Desafio Framework DigitalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio Framework Digital-Desafio Framework DigitalUITests.debug.xcconfig"; path = "Target Support Files/Pods-Desafio Framework Digital-Desafio Framework DigitalUITests/Pods-Desafio Framework Digital-Desafio Framework DigitalUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		769A9D09D7D43785A74719CB /* Pods-Desafio Framework Digital-Desafio Framework DigitalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio Framework Digital-Desafio Framework DigitalUITests.release.xcconfig"; path = "Target Support Files/Pods-Desafio Framework Digital-Desafio Framework DigitalUITests/Pods-Desafio Framework Digital-Desafio Framework DigitalUITests.release.xcconfig"; sourceTree = "<group>"; };
-		BEA30216808B4F876810C5B9 /* Pods-Desafio Framework Digital.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio Framework Digital.release.xcconfig"; path = "Target Support Files/Pods-Desafio Framework Digital/Pods-Desafio Framework Digital.release.xcconfig"; sourceTree = "<group>"; };
+		6FCC7028C0FD7645151A078E /* Pods-Desafio Framework Digital-Desafio Framework DigitalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio Framework Digital-Desafio Framework DigitalUITests.release.xcconfig"; path = "Target Support Files/Pods-Desafio Framework Digital-Desafio Framework DigitalUITests/Pods-Desafio Framework Digital-Desafio Framework DigitalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7361F2FA8121C303817096ED /* Pods-Desafio Framework DigitalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio Framework DigitalTests.release.xcconfig"; path = "Target Support Files/Pods-Desafio Framework DigitalTests/Pods-Desafio Framework DigitalTests.release.xcconfig"; sourceTree = "<group>"; };
+		8BB0AC2550F93D41E3E15416 /* Pods-Desafio Framework Digital.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio Framework Digital.release.xcconfig"; path = "Target Support Files/Pods-Desafio Framework Digital/Pods-Desafio Framework Digital.release.xcconfig"; sourceTree = "<group>"; };
+		BB256F496075ED360443E8FB /* Pods-Desafio Framework Digital.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio Framework Digital.debug.xcconfig"; path = "Target Support Files/Pods-Desafio Framework Digital/Pods-Desafio Framework Digital.debug.xcconfig"; sourceTree = "<group>"; };
 		CE9A9E55EE28F158E8A84D1D /* Pods_Desafio_Framework_DigitalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Desafio_Framework_DigitalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D87BFB185D13A7B18277C626 /* Pods-Desafio Framework Digital.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio Framework Digital.debug.xcconfig"; path = "Target Support Files/Pods-Desafio Framework Digital/Pods-Desafio Framework Digital.debug.xcconfig"; sourceTree = "<group>"; };
 		FDDCE53A26CDD03F003F25FB /* Desafio Framework Digital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desafio Framework Digital.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDCE53D26CDD03F003F25FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDDCE53F26CDD03F003F25FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +72,9 @@
 		FDDCE57826CECFAF003F25FB /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		FDDCE57A26CEDB66003F25FB /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		FDDCE57C26CEDC2A003F25FB /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		FDDCE58126D0345E003F25FB /* emoticon-sad-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoticon-sad-outline.png"; sourceTree = "<group>"; };
+		FDDCE59026D07200003F25FB /* HighlightTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightTableViewCell.swift; sourceTree = "<group>"; };
+		FDDCE59226D07661003F25FB /* apple-finder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-finder.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,15 +105,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0FA1EFD3539C219AC64BB093 /* Pods */ = {
+		4C13AE5BA26D3148AA561487 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D87BFB185D13A7B18277C626 /* Pods-Desafio Framework Digital.debug.xcconfig */,
-				BEA30216808B4F876810C5B9 /* Pods-Desafio Framework Digital.release.xcconfig */,
-				70E071CE776D2839C5FB6C32 /* Pods-Desafio Framework Digital-Desafio Framework DigitalUITests.debug.xcconfig */,
-				769A9D09D7D43785A74719CB /* Pods-Desafio Framework Digital-Desafio Framework DigitalUITests.release.xcconfig */,
-				2A645213807C581A4A0CF89A /* Pods-Desafio Framework DigitalTests.debug.xcconfig */,
-				67B321C26876583CF687709B /* Pods-Desafio Framework DigitalTests.release.xcconfig */,
+				BB256F496075ED360443E8FB /* Pods-Desafio Framework Digital.debug.xcconfig */,
+				8BB0AC2550F93D41E3E15416 /* Pods-Desafio Framework Digital.release.xcconfig */,
+				3C8CFC1FC35658CA66581299 /* Pods-Desafio Framework Digital-Desafio Framework DigitalUITests.debug.xcconfig */,
+				6FCC7028C0FD7645151A078E /* Pods-Desafio Framework Digital-Desafio Framework DigitalUITests.release.xcconfig */,
+				4C2CC430F8A38E360D36927B /* Pods-Desafio Framework DigitalTests.debug.xcconfig */,
+				7361F2FA8121C303817096ED /* Pods-Desafio Framework DigitalTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -129,8 +135,8 @@
 				FDDCE55626CDD045003F25FB /* Desafio Framework DigitalTests */,
 				FDDCE56126CDD045003F25FB /* Desafio Framework DigitalUITests */,
 				FDDCE53B26CDD03F003F25FB /* Products */,
-				0FA1EFD3539C219AC64BB093 /* Pods */,
 				7FD8CB4CB4D0D4589AF268D7 /* Frameworks */,
+				4C13AE5BA26D3148AA561487 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,8 +157,8 @@
 				FDDCE57226CEBF45003F25FB /* Controllers */,
 				FDDCE57126CEBF3B003F25FB /* Views */,
 				FDDCE57026CEBF33003F25FB /* Models */,
-				FDDCE53F26CDD03F003F25FB /* SceneDelegate.swift */,
 				FDDCE54926CDD045003F25FB /* Assets.xcassets */,
+				FDDCE57E26D032FD003F25FB /* images */,
 				FDDCE54B26CDD045003F25FB /* LaunchScreen.storyboard */,
 				FDDCE54E26CDD045003F25FB /* Info.plist */,
 				FDDCE54626CDD03F003F25FB /* Desafio_Framework_Digital.xcdatamodeld */,
@@ -181,6 +187,10 @@
 		FDDCE57026CEBF33003F25FB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FDDCE58F26D03837003F25FB /* Favorites */,
+				FDDCE58E26D0382E003F25FB /* Highlights */,
+				FDDCE58D26D03828003F25FB /* Cart */,
+				FDDCE58C26D0381F003F25FB /* UserProfile */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -188,7 +198,11 @@
 		FDDCE57126CEBF3B003F25FB /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FDDCE54326CDD03F003F25FB /* Main.storyboard */,
+				FDDCE58B26D037C1003F25FB /* UserProfile */,
+				FDDCE58A26D037B8003F25FB /* Cart */,
+				FDDCE58926D037AD003F25FB /* Favorites */,
+				FDDCE58826D0379D003F25FB /* Highlights */,
+				FDDCE58726D03796003F25FB /* Main */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -196,10 +210,10 @@
 		FDDCE57226CEBF45003F25FB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				FDDCE54126CDD03F003F25FB /* ViewController.swift */,
-				FDDCE57826CECFAF003F25FB /* FavoritesViewController.swift */,
-				FDDCE57A26CEDB66003F25FB /* CartViewController.swift */,
-				FDDCE57C26CEDC2A003F25FB /* UserProfileViewController.swift */,
+				FDDCE58626D03765003F25FB /* UserProfile */,
+				FDDCE58526D0375C003F25FB /* Cart */,
+				FDDCE58426D03748003F25FB /* Main */,
+				FDDCE58326D03724003F25FB /* Favorites */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -207,9 +221,116 @@
 		FDDCE57326CEBF5F003F25FB /* Configurations */ = {
 			isa = PBXGroup;
 			children = (
+				FDDCE53F26CDD03F003F25FB /* SceneDelegate.swift */,
 				FDDCE53D26CDD03F003F25FB /* AppDelegate.swift */,
 			);
 			path = Configurations;
+			sourceTree = "<group>";
+		};
+		FDDCE57E26D032FD003F25FB /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FDDCE59226D07661003F25FB /* apple-finder.png */,
+				FDDCE58126D0345E003F25FB /* emoticon-sad-outline.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		FDDCE58326D03724003F25FB /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				FDDCE57826CECFAF003F25FB /* FavoritesViewController.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		FDDCE58426D03748003F25FB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FDDCE54126CDD03F003F25FB /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FDDCE58526D0375C003F25FB /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				FDDCE57A26CEDB66003F25FB /* CartViewController.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		FDDCE58626D03765003F25FB /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				FDDCE57C26CEDC2A003F25FB /* UserProfileViewController.swift */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		FDDCE58726D03796003F25FB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FDDCE54326CDD03F003F25FB /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FDDCE58826D0379D003F25FB /* Highlights */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Highlights;
+			sourceTree = "<group>";
+		};
+		FDDCE58926D037AD003F25FB /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		FDDCE58A26D037B8003F25FB /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		FDDCE58B26D037C1003F25FB /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		FDDCE58C26D0381F003F25FB /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		FDDCE58D26D03828003F25FB /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		FDDCE58E26D0382E003F25FB /* Highlights */ = {
+			isa = PBXGroup;
+			children = (
+				FDDCE59026D07200003F25FB /* HighlightTableViewCell.swift */,
+			);
+			path = Highlights;
+			sourceTree = "<group>";
+		};
+		FDDCE58F26D03837003F25FB /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Favorites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +344,7 @@
 				FDDCE53626CDD03F003F25FB /* Sources */,
 				FDDCE53726CDD03F003F25FB /* Frameworks */,
 				FDDCE53826CDD03F003F25FB /* Resources */,
+				98BF80F3275453DD4DA259D1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -260,6 +382,7 @@
 				FDDCE55A26CDD045003F25FB /* Sources */,
 				FDDCE55B26CDD045003F25FB /* Frameworks */,
 				FDDCE55C26CDD045003F25FB /* Resources */,
+				05E8EEC1F83E6C10738BADF5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -319,8 +442,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDDCE54D26CDD045003F25FB /* LaunchScreen.storyboard in Resources */,
+				FDDCE59326D07661003F25FB /* apple-finder.png in Resources */,
 				FDDCE54A26CDD045003F25FB /* Assets.xcassets in Resources */,
 				FDDCE54526CDD03F003F25FB /* Main.storyboard in Resources */,
+				FDDCE58226D0345E003F25FB /* emoticon-sad-outline.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +486,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		05E8EEC1F83E6C10738BADF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Desafio Framework Digital-Desafio Framework DigitalUITests/Pods-Desafio Framework Digital-Desafio Framework DigitalUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Desafio Framework Digital-Desafio Framework DigitalUITests/Pods-Desafio Framework Digital-Desafio Framework DigitalUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Desafio Framework Digital-Desafio Framework DigitalUITests/Pods-Desafio Framework Digital-Desafio Framework DigitalUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2B596C91E3D06D10F04AAB2F /* [CP] Check Pods Manifest.lock */ = {
@@ -407,6 +549,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		98BF80F3275453DD4DA259D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Desafio Framework Digital/Pods-Desafio Framework Digital-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Desafio Framework Digital/Pods-Desafio Framework Digital-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Desafio Framework Digital/Pods-Desafio Framework Digital-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -416,6 +575,7 @@
 			files = (
 				FDDCE54226CDD03F003F25FB /* ViewController.swift in Sources */,
 				FDDCE53E26CDD03F003F25FB /* AppDelegate.swift in Sources */,
+				FDDCE59126D07200003F25FB /* HighlightTableViewCell.swift in Sources */,
 				FDDCE57D26CEDC2A003F25FB /* UserProfileViewController.swift in Sources */,
 				FDDCE54026CDD03F003F25FB /* SceneDelegate.swift in Sources */,
 				FDDCE57926CECFAF003F25FB /* FavoritesViewController.swift in Sources */,
@@ -593,8 +753,9 @@
 		};
 		FDDCE56826CDD045003F25FB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D87BFB185D13A7B18277C626 /* Pods-Desafio Framework Digital.debug.xcconfig */;
+			baseConfigurationReference = BB256F496075ED360443E8FB /* Pods-Desafio Framework Digital.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -613,8 +774,9 @@
 		};
 		FDDCE56926CDD045003F25FB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEA30216808B4F876810C5B9 /* Pods-Desafio Framework Digital.release.xcconfig */;
+			baseConfigurationReference = 8BB0AC2550F93D41E3E15416 /* Pods-Desafio Framework Digital.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -633,7 +795,7 @@
 		};
 		FDDCE56B26CDD045003F25FB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A645213807C581A4A0CF89A /* Pods-Desafio Framework DigitalTests.debug.xcconfig */;
+			baseConfigurationReference = 4C2CC430F8A38E360D36927B /* Pods-Desafio Framework DigitalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -656,7 +818,7 @@
 		};
 		FDDCE56C26CDD045003F25FB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67B321C26876583CF687709B /* Pods-Desafio Framework DigitalTests.release.xcconfig */;
+			baseConfigurationReference = 7361F2FA8121C303817096ED /* Pods-Desafio Framework DigitalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -679,7 +841,7 @@
 		};
 		FDDCE56E26CDD045003F25FB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70E071CE776D2839C5FB6C32 /* Pods-Desafio Framework Digital-Desafio Framework DigitalUITests.debug.xcconfig */;
+			baseConfigurationReference = 3C8CFC1FC35658CA66581299 /* Pods-Desafio Framework Digital-Desafio Framework DigitalUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -700,7 +862,7 @@
 		};
 		FDDCE56F26CDD045003F25FB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 769A9D09D7D43785A74719CB /* Pods-Desafio Framework Digital-Desafio Framework DigitalUITests.release.xcconfig */;
+			baseConfigurationReference = 6FCC7028C0FD7645151A078E /* Pods-Desafio Framework Digital-Desafio Framework DigitalUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
